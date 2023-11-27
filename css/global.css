@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+
+.container{
+    padding: 80px 120px;
+}
+
+#header{
+    font-family: monospace;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 22px;
+}
+
+.word{
+    display: inline-flex;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.letter{
+    display: inline-block;
+    width: 38px;
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+p{
+    font-family: monospace;
+    font-size: 35px;
+    height: 41px;
+    margin: 0;
+    border-radius: 12px;
+}
+
+/* MENU */
+
+#menu{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-family: monospace;
+    font-size: 56px;
+    margin-bottom: 32px;
+}
+
+ul{
+    display: grid;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul .option{
+    font-family: monospace;
+    font-size: 46px;
+    cursor: pointer;
+    color: black;
+}
+
+ul .option a:hover, ul .option:hover{
+    color: rgba(0, 0, 0, 0.73);
+    list-style-type: disc;
+}
+
+ul .option a, .exit a{
+    text-decoration: none;
+}
+
+ul .option a:visited, .exit a:visited{
+    color: rgba(0, 0, 0, 0.73);
+}
+
+.exit{
+    font-family: monospace;
+    font-size: 36px;
+    cursor: pointer;
+    color: black;
+    margin-top: 18px;
+}
+
+.exit:hover, .exit a:hover{
+    color: rgba(0, 0, 0, 0.73);
+    list-style-type: disc;
+}
+
+/* LOGIN / REGISTER */
