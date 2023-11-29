@@ -1,93 +1,30 @@
 # Typing
+    Trabalho desenvolvido para a matéria de Desenvolvimento Web para o professor Alex Kutzke.
+    Alunos: Lucca Haj Mussi Chella Paranhos Silva e Leonardo dos Santos Correia.
 
+#Recursos
+    O programa foi desenvolvido usando:
+..*HTML;
+..*CSS;
+..*Bootstrap;
+..*Javascript;
+..*AJAX;
+..*PHP;
+..*SQL;
+..*XAMPP.
 
+#Código
+..*HTML: O html foi utilizado para definir o esqueleto da página, assim como classes e id's.
+..*Javascript: O Javascript foi utilizado para escrever a lógica do funcionamento do jogo, e dentro dele foi utilizado também o AJAX, para conectar o score final com o PHP e por fim com o usuário no banco.
+..*PHP: O PHP foi utilizado para conectar o site com o banco, desde o sistema de cadastro, login, até o sistema de guardar scores e a disposição de tabelas, bem como a entrada em ligas, mantendo a sessão do usuário salva.
+..*SQL: O SQL foi utilizado dentro do PHP em QUERY's. O SGBD utilizado foi o MySQL, e por meio dele foram criadas as 4 tabelas; Usuarios, Partidas, Ligas e Incricoesligas, dentro do banco typing.
+..*XAMPP: O XAMPP permitiu o funcionamento do programa em um servidor local, tornando possivel vizualisar as partes escritas em PHP.
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.com/typing3/typing.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.com/typing3/typing/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+#Funcionamento
+    A aplicação inicia pelo index.html, onde o usuário tem duas opções "Logar" ou "Registrar". Caso o usuário escolha "Logar", ele será direcionado para login.php, onde será necessario a inserção do nome de usuário e da senha. Caso o usuário escolhe "Registrar", ele será direcionado para register.php, e então poderá se registrar com: Nome, Usuário, Email, Senha e Confirmação da Senha. Após registrar ele será direcionado para login.php. Para registrar o arquivo usado é o check_form.php, o qual insere os dados do usuário na tabela Usuário. Ja para logar, é usado o arquivo check_login.php, o qual consulta o banco para validar a entrada da usuário.
+    Após logar o usuário será direcionado para menu.php, e terá as opções: Jogar, Ligas, Pontuação/Histórico e Sair.
+    Caso o usuário selecione "Jogar", ele será direcionado para game.html, em que por meio do game.js, será gerado um lorem com ordem de palavras aleatório, e o cronômetro de 60 segundos começara a contagem. Quando o usuário pressiona uma tecla, uma função de validação é chamada. A validação funciona da seguinte maneira: o programa recebe a letra que o usuário digitou e compara com a letra atual no texto do jogo. Caso ela esteja correta ela chama a função para colorir a letra com true, e ele é pintada de verde, a função set Scrore também é chamada aumentando o score do usuário em 1, caso incorreto, o contrario ocorre. Toda vez que o número fixo de 20 palavras acaba, o jogo chama a função reset game, a qual dispoem mais 20 palavras para o usuário seguir o jogo. Isso ocorre até o cronômetro chegar em 0. Quando o cronômetro zera, o jogo se encerra e o usuário pode ver seu score, e voltar para o menu. O arquivo score.php, é responsavel por enviar os dados do score, para a tabela partidas, levando consigo o id do usuário que jogou.
+    Caso o usuário selecione "Ligas", ele será direcionado para ligas.php. Nessa página o usuário, poderá criar uma liga, entrar em uma liga e ver a tabela de score de sua liga. A criação de ligas é feita por meio do arquivo criar_ligas.php, onde valida e insere os dados na tabela Ligas. Caso o usuário entre em uma liga seu id será enviado para a tabela IncricaoLigas, e ele terá acesso aos scores dentro de sua liga.
+    Caso o usuário selecione Pontuação/Histórico, ele será direcionado para historico.php. Nessa página o usuário terá acesso ao histórico de partidas, ao score geral, e ao score geral de ligas. Isso é feito por meio de 3 consultas.
+    Caso o usuário selecione "Sair", ele será enviado para index.html, e terá as duas opções ja citadas.
+    
