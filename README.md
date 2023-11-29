@@ -4,21 +4,21 @@
 
 ## Recursos
    O programa foi desenvolvido usando:
-..* HTML;
-..* CSS;
-..* Bootstrap;
-..* Javascript;
-..* AJAX;
-..* PHP;
-..* SQL;
-..* XAMPP.
+* HTML;
+* CSS;
+* Bootstrap;
+* Javascript;
+* AJAX;
+* PHP;
+* SQL;
+* XAMPP.
 
 ## Código
-..* HTML: O html foi utilizado para definir o esqueleto da página, assim como classes e id's.
-..* Javascript: O Javascript foi utilizado para escrever a lógica do funcionamento do jogo, e dentro dele foi utilizado também o AJAX, para conectar o score final com o PHP e por fim com o usuário no banco.
-..* PHP: O PHP foi utilizado para conectar o site com o banco, desde o sistema de cadastro, login, até o sistema de guardar scores e a disposição de tabelas, bem como a entrada em ligas, mantendo a sessão do usuário salva.
-..* SQL: O SQL foi utilizado dentro do PHP em QUERY's. O SGBD utilizado foi o MySQL, e por meio dele foram criadas as 4 tabelas; Usuarios, Partidas, Ligas e Incricoesligas, dentro do banco typing.
-..* XAMPP: O XAMPP permitiu o funcionamento do programa em um servidor local, tornando possivel vizualisar as partes escritas em PHP.
+* HTML: O html foi utilizado para definir o esqueleto da página, assim como classes e id's.
+* Javascript: O Javascript foi utilizado para escrever a lógica do funcionamento do jogo, e dentro dele foi utilizado também o AJAX, para conectar o score final com o PHP e por fim com o usuário no banco.
+* PHP: O PHP foi utilizado para conectar o site com o banco, desde o sistema de cadastro, login, até o sistema de guardar scores e a disposição de tabelas, bem como a entrada em ligas, mantendo a sessão do usuário salva.
+* SQL: O SQL foi utilizado dentro do PHP em QUERY's. O SGBD utilizado foi o MySQL, e por meio dele foram criadas as 4 tabelas; Usuarios, Partidas, Ligas e Incricoesligas, dentro do banco typing.
+* XAMPP: O XAMPP permitiu o funcionamento do programa em um servidor local, tornando possivel vizualisar as partes escritas em PHP.
 
 ## Funcionamento
    A aplicação inicia pelo index.html, onde o usuário tem duas opções "Logar" ou "Registrar". Caso o usuário escolha "Logar", ele será direcionado para login.php, onde será necessario a inserção do nome de usuário e da senha. Caso o usuário escolhe "Registrar", ele será direcionado para register.php, e então poderá se registrar com: Nome, Usuário, Email, Senha e Confirmação da Senha. Após registrar ele será direcionado para login.php. Para registrar o arquivo usado é o check_form.php, o qual insere os dados do usuário na tabela Usuário. Ja para logar, é usado o arquivo check_login.php, o qual consulta o banco para validar a entrada da usuário.
