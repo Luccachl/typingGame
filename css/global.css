@@ -1,17 +1,17 @@
 body{
     margin: 0;
+    background-color: rgb(247, 209, 209);
 }
 
 .container{
     padding: 80px 120px;
 }
 
-#header{
-    font-family: monospace;
-    font-size: 35px;
+#header {
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 22px;
+    justify-content: space-between;
+    font-family: monospace;
+    font-size: 18px;
 }
 
 .word{

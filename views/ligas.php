@@ -105,6 +105,7 @@ $scoreboard_result = mysqli_query($conn, $scoreboard_query);
             font-weight:bold;
             color:black;
             text-decoration: none;
+            padding-top: 20px;
             
         }
     </style>

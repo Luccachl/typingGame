@@ -5,6 +5,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 20px;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -34,9 +36,10 @@ h2 {
 }
 
 table {
-    width: 100%;
+    width: 30%;
     border-collapse: collapse;
     margin-top: 10px;
+    
 }
 
 table, th, td {

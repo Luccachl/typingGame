@@ -89,6 +89,9 @@ $conn->close();
     font-weight:bold;
     color:black;
     text-decoration: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size:25px;
     }
     </style>
 </head>

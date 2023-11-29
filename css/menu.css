@@ -1,12 +1,15 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
     margin: 0;
-    color: dimgray;
 }
 
 .title {
     font-family: monospace;
     font-size: 70px;
-    color: dimgray;
+    color: black;
     display: flex;
    
 
@@ -24,7 +27,7 @@ ul .option {
     font-family: monospace;
     font-size: 46px;
     cursor: pointer;
-    color: dimgray;
+    color: black;
     transition: color 0.3s;
     margin-top: 20px;
     
