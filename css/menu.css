@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    color: dimgray;
+}
+
+.title {
+    font-family: monospace;
+    font-size: 70px;
+    color: dimgray;
+    display: flex;
+   
+
+}
+
+.container{
+    padding: 80px 500px;
+}
+
+body {
+    background-color: rgb(247, 209, 209);
+}
+
+ul .option {
+    font-family: monospace;
+    font-size: 46px;
+    cursor: pointer;
+    color: dimgray;
+    transition: color 0.3s;
+    margin-top: 20px;
+    
+    
+}
+
+ul .option:hover {
+    color: red;
+    list-style-type: disc;
+}
+
+ul .option a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+ul .option a:visited {
+   
+    color: inherit;
+}
+
+ul .option a:hover { 
+    color: red;
+}
+
+ul .option:hover a {
+    color: red;
+}
+
+.exit {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 46px;
+    cursor: pointer;
+    color: black;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.exit:hover {
+    color: red;
+    list-style-type: disc;
+}

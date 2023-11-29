@@ -99,6 +99,7 @@ $scoreboard_result = mysqli_query($conn, $scoreboard_query);
 <head>
     <title>Ligas</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/ligas.css">
     <style>
       a {
             font-weight:bold;

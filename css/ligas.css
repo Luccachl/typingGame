@@ -1,0 +1,91 @@
+body, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 25px;
+    padding: 0px 575px;
+}
+
+body {
+    margin: 0;
+    color: #333;
+    background-color: rgb(247, 209, 209);
+    text-align: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 50px;
+    margin: auto;
+}
+
+.title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form {
+    font-size: 20px;
+}
+
+.button {
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 20px;
+    background-color:red;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 3px color black
+}
+
+.table th, .table td {
+    border: 1px solid rgb(247, 209, 209);
+    padding: 12px;
+    text-align: center;
+}
+
+.table th {
+    background-color:red;
+    color: #fff;
+}
+
+.exit {
+    cursor: pointer;
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.exit:hover {
+    background-color: red;
+}
+
+h2{
+    font-size:40px;
+    color: red;
+    margin: 20px 0;
+}
+
+table{
+    margin: 10px 0;
+    text-align: center;
+}

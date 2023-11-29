@@ -10,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="../script/check_form.js"></script>
+  <link rel="stylesheet" href="../css/register.css" >
 </head>
 <body>
 <div class="container">
@@ -89,7 +90,7 @@
               <span class="help-block"><?php echo $erro_senhaconf ?></span>
             <?php endIf; ?>
           </div>
-        </div>
+            </div>
 
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">

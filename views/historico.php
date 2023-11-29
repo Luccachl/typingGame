@@ -82,17 +82,17 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pontuação</title>
+    <title>Pontuações</title>
+    <link rel="stylesheet" href="../css/historico.css">
     <style>
-      a {
-            font-weight:bold;
-            color:black;
-            text-decoration: none;
-            
-        }
+    a {
+    font-weight:bold;
+    color:black;
+    text-decoration: none;
+    }
     </style>
 </head>
 <body>
-    
+
 </body>
 </html>

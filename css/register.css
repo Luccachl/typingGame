@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(247, 209, 209);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.page-header {
+    color: red;
+    margin-bottom: 30px;
+}
+
+.form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.form-horizontal .form-control {
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.has-error .form-control {
+    border-color:red;
+    box-shadow: 0 0 10px darkred;
+}
+
+.help-block {
+    color: red;
+}
+
+.btn-default {
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    background-color: red;
+    color: #fff;
+}
+
+
+

@@ -4,6 +4,8 @@
     <title>Login</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+
 </head>
 <body>
     <div class="container">
