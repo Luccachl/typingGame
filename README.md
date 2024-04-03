@@ -1,7 +1,7 @@
 # Typing
    Trabalho desenvolvido para a matéria de Desenvolvimento Web para o professor Alex Kutzke.
 
-   Alunos: Lucca Haj Mussi Chella Paranhos Silva e Leonardo dos Santos Correia.
+   Alunos: Lucca Haj Mussi Chella Paranhos Silva
 
 ## Recursos
    O programa foi desenvolvido usando:
